@@ -11,6 +11,4 @@ with open("text.txt", "r") as f:
 # read the file line by line
 with open("text.txt", "r") as f:
     for line in f: # f is iterable and we get each individual line
-        print(f.read())
-        # print(lind, end="")
         print(line.rstrip())
